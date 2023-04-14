@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body{
+  background: linear-gradient( 358.4deg,  rgba(249,151,119,1) -2.1%, rgba(98,58,162,1) 90% );
+  font-size: 1.6rem;
+
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+
+body, button, input {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.hide {
+  display: none;
+}
+
+main{
+   background-color: rgba(255, 255, 255, 0.217);
+   box-shadow: 0px .2rem .4rem rgba(0, 0, 0, 0.128);
+   border-radius: .6rem;
+   padding: 4.8rem 6.4rem 6.4rem;
+
+   width: min(42.8rem, 90%);
+   margin-top: -12rem;
+
+  text-align: center;
+  
+}
+
+/*screen1 ----------------------------*/
+h1 { 
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+h1, p {
+  color: rgb(245, 245, 245);
+}
+
+p {
+  opacity: 0.8;
+}
+
+h1{
+  font-size: 2.4rem;
+}
+
+form {
+  margin-top: 4.8rem;
+  display : flex;
+  justify-content: center;
+}
+
+input, button {
+  border: none;
+  padding: 1.6rem;
+  
+}
+
+input {
+  border-style: none;
+  background-color: white;
+  background: linear-gradient( 358.4deg, 
+  rgba(249, 151, 119, 0.543) -2.1%, rgba(98, 58, 162, 0.263) 90% );
+  color: black;
+  width: 10rem;
+  border-radius: .4rem 0 0 .4rem;
+}
+
+button {
+  background-color: white;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border-radius: 0 .4rem .4rem 0;
+  cursor: pointer;
+  background: linear-gradient( 358.4deg,  
+  rgba(249, 151, 119, 0.543) -2.1%, rgba(249, 151, 119, 0.215) 90% );
+
+  transition: background .3s;
+}
+
+button:hover {
+  background-color: rgba(249, 151, 119, 0.311);
+}
+
+/*SCREEEN2-------------------------------------------------------*/
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: normal;
+  margin-bottom: 3.3rem;
+  color: rgb(245, 245, 245);
+}
+
+.screen2 button {
+  border-radius: .4rem;
+}
+
+
+
+/*
+body {
+  background: linear-gradient(3deg, #e08700, #5300c4);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 19s ease infinite;
+  -moz-animation: AnimationName 19s ease infinite;
+  -o-animation: AnimationName 19s ease infinite;
+  animation: AnimationName 19s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:50% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:50% 0%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:50% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:50% 0%}
+}
+@-o-keyframes AnimationName {
+  0%{background-position:50% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:50% 0%}
+}
+@keyframes AnimationName {
+  0%{background-position:50% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:50% 0%}
+}
+*/ 
